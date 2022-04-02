@@ -1,0 +1,65 @@
+.slider{
+	width: 33%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider .ul {
+	display: flex;
+	padding: 0;
+	width: 1400%;
+
+	animation: cambio 60s infinite;
+}
+.slider .li {
+	width: 100%;
+	list-style: none;
+}
+.slider .imgslider {
+	width: 100%;
+	cursor: pointer;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	5% {margin-left: 0;}
+
+	7% {margin-left: -100%;}
+	13% {margin-left:-100%;}
+
+	15% {margin-left: -200%;}
+	20% {margin-left: -200%;}
+
+	22% {margin-left: -300%;}
+	27% {margin-left: -300%;}
+
+	29% {margin-left: -400%;}
+	34% {margin-left: -400%;}
+
+	36% {margin-left: -500%;}
+	41% {margin-left: -500%;}
+
+	43% {margin-left: -600%;}
+	48% {margin-left: -600%;}
+
+	50% {margin-left: -700%;}
+	55% {margin-left: -700%;}
+
+	57% {margin-left: -800%;}
+	62% {margin-left: -800%;}
+
+	64% {margin-left: -900%;}
+	69% {margin-left: -900%;}
+
+	71% {margin-left: -1000%;}
+	76% {margin-left: -1000%;}
+
+	78% {margin-left: -1100%;}
+	83% {margin-left: -1100%;}
+
+	85% {margin-left: -1200%;}
+	90% {margin-left: -1200%;}
+
+	92% {margin-left: -1300%;}
+	97% {margin-left: -1300%;}
+
+}
